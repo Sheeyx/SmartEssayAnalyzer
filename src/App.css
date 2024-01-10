@@ -4,14 +4,13 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .container {
+  background-color: #ffffff;
   max-width: 1600px;
-  height: 100%;
   margin: 0 auto;
-  background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -34,6 +33,7 @@ body {
 .body {
   display: flex;
   justify-content: space-around;
+  background-color: #ffffff;
 }
 
 .column {
@@ -43,7 +43,8 @@ body {
 
 .inputField {
   width: 95%;
-  min-height: 500px ;
+  min-height:500px;
+  height: auto;
   padding: 15px;
   margin-bottom: 20px;
   border: 2px solid #3498db;
